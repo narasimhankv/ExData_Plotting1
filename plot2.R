@@ -35,7 +35,7 @@ plot(power_new$Global_active_power~power_new$Datetime, type="l", ylab="Global Ac
 
 
 # Save
-dev.copy(png, file="plot1.png", height=480, width=480)
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
 
 
